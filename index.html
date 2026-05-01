@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furkan Sahin</title>
+  <meta
+    name="description"
+    content="Furkan Sahin"
+  />
+  <style>
+    :root {
+      --text: #111111;
+      --muted: #555555;
+      --line: #dddddd;
+      --bg: #ffffff;
+      --link: #1a55cc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.55;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 28px auto 56px;
+    }
+
+    h1,
+    h2,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 6px;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      text-transform: lowercase;
+    }
+
+    p,
+    li {
+      font-size: 1.03rem;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .subtitle {
+      margin-bottom: 20px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .links {
+      margin: 0 0 24px;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .rule {
+      margin: 22px 0;
+      border: 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .section {
+      margin-bottom: 28px;
+    }
+
+    .timeline-item {
+      margin-bottom: 18px;
+    }
+
+    .year {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        width: min(100% - 24px, 760px);
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Furkan Şahin</h1>
+      <p class="subtitle">I like thinking in systems and I like solving problems.</p>
+      <ul class="links">
+        <li><a href="https://github.com/sahinof" target="_blank" rel="noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/sahinfurkan" target="_blank" rel="noreferrer">LinkedIn</a></li>
+      </ul>
+    </header>
+
+    <hr class="rule" />
+
+    <section class="section">
+      <p>
+        Right now I'm interested in AI-native software delivery.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>experience</h2>
+
+      <div class="timeline-item">
+        <span class="year">2021 - present</span>
+        <p>
+          I lead an engineering team at <a href="https://turkishtechnology.com/en" target="_blank" referrerpolicy="noreferrer">Turkish Technology</a> to build exciting new features for <a href="https://www.forbes.com/advisor/credit-cards/travel-rewards/turkish-airlines-miles-smiles/" target="_blank" rel="noreferrer">Miles&Smiles</a>, the frequent flyer program of Turkish Airlines with over 20M members.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <span class="year">2015 - 2021</span>
+        <p>
+          I was a Product Owner at <a href="https://www.worldairlineawards.com/best-airlines-2025-by-region/">Turkish Airlines</a>. I had the pleasure to deliver web and mobile apps in the enterprise solutions domain, such as an exam platform for cabin and cockpit crew and <a href="https://turkishtechnology.com/tr/products/corporate-hr/up-superapp" target="_blank" rel="noreferrer">an internal mobile app</a> for more than 100,000 employees.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <span class="year">2012 - 2015</span>
+        <p>
+          MSc at Istanbul Sehir University where I worked on stochastic shortest path algorithms, specifically on Canadian Traveler Problem (i.e. a shortest path problem variant where you do not know which roads are blocked until you physically arrive at them).
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <span class="year">2007 - 2011</span>
+        <p>
+          BSc at Sabanci University with a major in Industrial Engineering.
+        </p>
+      </div>
+    </section>    
+    <section class="section">
+      <h2>selected work</h2>
+      <ul>
+        <li>I once translated a <a href="https://www.kitapyurdu.com/kitap/gelecek/509675.html" target="_blank" rel="noreferrer">book</a>. It is about futures studies.</li>
+        <li>Some <a href="https://scholar.google.com/citations?user=hNSnT6sAAAAJ&hl=en" target="_blank" rel="noreferrer">academic publications</a> that I have contributed to.
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>contact</h2>
+      <p>
+        The best way to reach me is by email: ofrkns at gmail dot com.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
